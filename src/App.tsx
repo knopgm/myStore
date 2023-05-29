@@ -1,5 +1,8 @@
 import React from "react";
+import { Container } from "./components/container/Container";
+
+import "./styles.scss";
 
 export function App() {
-  return <div>Hello World</div>;
+  return <Container>Hello World</Container>;
 }
