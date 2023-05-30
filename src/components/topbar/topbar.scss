@@ -1,5 +1,15 @@
-.topbar {
+.topbar-wrapper {
   background-color: bisque;
+}
+
+.topbar {
+  background-color: white;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.search_cart {
+  display: flex;
+  gap: 1rem;
 }
