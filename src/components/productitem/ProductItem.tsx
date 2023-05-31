@@ -26,15 +26,6 @@ export const ProductItem = ({ product }: ProductItemProps) => {
         <p>
           {currency} {value}
         </p>
-        <div className="add_remove_cart-wrapper">
-          <button className="button-add_remove">-</button>
-          <img
-            alt="cart image"
-            style={{ width: 40, padding: 3 }}
-            src={String(cartImage)}
-          />
-          <button className="button-add_remove">+</button>
-        </div>
       </div>
     </>
   );
