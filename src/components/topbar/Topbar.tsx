@@ -27,12 +27,13 @@ export const Topbar = () => {
                 src={String(searchIcon)}
               />
             </div>
-            <div>
+            <div className="cart">
               <img
                 alt="cart image"
                 style={{ width: 40, padding: 3 }}
                 src={String(cartImage)}
               />
+              <div className="products_on_cart_number">1</div>
             </div>
           </div>
         </div>

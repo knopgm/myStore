@@ -13,3 +13,16 @@
   display: flex;
   gap: 1rem;
 }
+
+.cart {
+  display: flex;
+}
+
+.products_on_cart_number {
+  background-color: rgb(255, 127, 80);
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 5rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
