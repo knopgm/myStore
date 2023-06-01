@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Container } from "./components/container/Container";
-import { Topbar } from "./components/topbar/Topbar";
-import { Footbar } from "./components/footbar/Footbar";
-import { ProductsList } from "./components/productslist/ProductsList";
+import { Topbar } from "./components/Topbar/Topbar";
+import { Footer } from "./components/Footer/Footer";
+import { ProductList } from "./pages/home/components/Productlist/ProductList";
 import { Product } from "./types";
 import "./styles.scss";
 
@@ -20,9 +20,9 @@ export function App() {
       <Topbar />
       <Container>
         <h1>Products</h1>
-        <ProductsList products={products} />
+        <ProductList products={products} />
       </Container>
-      <Footbar />
+      <Footer />
     </>
   );
 }

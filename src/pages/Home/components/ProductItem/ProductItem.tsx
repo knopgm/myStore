@@ -1,6 +1,6 @@
 import React from "react";
-import { Product } from "../../types";
-import "./productItem.scss";
+import { Product } from "../../../../types";
+import "./ProductItem.scss";
 
 type ProductItemProps = {
   product: Product;
@@ -9,8 +9,7 @@ type ProductItemProps = {
 export const ProductItem = ({ product }: ProductItemProps) => {
   const { id, title, price } = product;
   const { value, currency } = price;
-  const productImage = require("../../img/shoe2.png");
-  const cartImage = require("../../img/orange_cart.png");
+  const productImage = require("../../../../img/shoe2.png");
 
   return (
     <>

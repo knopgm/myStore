@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "../container/Container";
 
-import "./topbar.scss";
+import "./Topbar.scss";
 
 export const Topbar = () => {
   const cartImage = require("../../img/orange_cart.png");

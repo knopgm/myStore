@@ -1,12 +1,12 @@
 import React from "react";
-import { ProductItem } from "../productitem/ProductItem";
-import { Product } from "../../types";
+import { ProductItem } from "../ProductItem/ProductItem";
+import { Product } from "../../../../types";
 
-import "./productsList.scss";
+import "./ProductList.scss";
 
 type ProductListProps = { products: Product[] };
 
-export const ProductsList = (props: ProductListProps) => {
+export const ProductList = (props: ProductListProps) => {
   props.products;
   return (
     <div className="products-wrapper">
